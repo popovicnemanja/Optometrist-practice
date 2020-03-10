@@ -1,0 +1,249 @@
+.Header__button-nav {
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	border: none;
+	outline: none;
+	background: none;
+	position: relative;
+}
+
+.Header__button-nav:hover {
+	cursor: pointer;
+}
+
+.Header__button-nav.is-activated {
+	background: #9d9c9c;
+	transition: 0.3s all;
+}
+
+.Header__button-icon,
+.Header__button-icon::before,
+.Header__button-icon::after {
+	width: 21.47px;
+	position: absolute;
+	height: 3.4999px;
+	background: #9D9C9C;
+	border-radius: 2px;
+	transform: translate(-50%, -50%);
+	transition: 0.3s all;
+}
+
+.Header__button-icon::before,
+.Header__button-icon::after {
+	content: '';
+	left: 0;
+	transform: none;
+}
+
+.Header__button-icon::before {
+	top: -7px;
+}
+
+.Header__button-icon::after {
+	bottom: -7px;
+}
+
+.Header__button-nav.is-activated > .Header__button-icon,
+.Header__button-nav.is-activated > .Header__button-icon::before,
+.Header__button-nav.is-activated > .Header__button-icon::after {
+	background: #fff;
+}
+
+.Moto__widget {
+	display: flex;
+	flex-direction: column;
+
+	animation: moveInBottom 1s ease-out;
+}
+
+.Moto__button {
+	margin-bottom: 10px;
+	padding: 0;
+	display: inline-block;
+	border: none;
+	border-radius: 30px;
+	outline: none;
+	background: $primary-color;
+	transition: 0.3s all;
+
+	&:hover {
+		background: white;
+	}
+}
+
+.Moto__link {
+	padding: 16px 36px;
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-transform: capitalize;
+	font-size: 16px;
+	line-height: 1;
+	color: white;
+	text-decoration: none;
+	transition: 0.3s all;
+
+	&:hover {
+		color: $secondary-color;
+	}
+}
+
+.Moto__button--white {
+	margin-bottom: 0;
+	background: white;
+
+	&:hover {
+		background: $secondary-color;
+	}
+	
+	& a {
+		color: $secondary-color;
+
+		&:hover {
+			color: white;
+		}
+	}
+}
+
+@keyframes moveInBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(200px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+.Gallery__widget {
+	margin-top: 20px;
+}
+
+.Gallery__button {
+	min-width: 137px;
+	display: inline-block;
+	padding: 0;
+}
+
+.Gallery__link {
+	padding: 20px;
+	display: inline-block;
+	font: 20px Roboto, sans-serif;
+	font-weight: 100;
+	text-transform: capitalize; 
+	text-decoration: none;
+	line-height: 1;
+	color: white;
+	border-radius: 30px;
+	transition: 0.3s all;
+	background: $primary-color;
+
+	&:hover {
+		background: $secondary-color;
+	}
+}
+
+.Contact__submit {
+	min-width: 137px;
+	padding: 0;
+	display: inline-block;
+	border: none;
+	border-radius: 30px;
+	outline: none;
+}
+
+.Contact__submit-link {
+	padding: 20px;
+	display: block;
+	font: 20px Roboto, sans-serif;
+	font-weight: 100;
+	text-transform: capitalize; 
+	text-decoration: none;
+	line-height: 1;
+	background: $primary-color;
+	color: white;
+	border-radius: 30px;
+	transition: 0.3s all;
+
+	&:hover {
+		background: $secondary-color;
+	}
+}
+
+.Services__submit {
+	min-width: 137px;
+	padding: 0;
+	display: inline-block;
+	border: none;
+	outline: none;
+}
+
+.Services__submit-link {
+	padding: 20px;
+	display: block;
+	border-radius: 30px;
+	font: 20px Roboto, sans-serif;
+	font-weight: 100;
+	text-transform: capitalize;
+	text-decoration: none;
+	line-height: 1;
+	background: $primary-color;
+	color: white;
+	transition: 0.3s all;
+
+	&:hover {
+		background: $secondary-color;
+	}
+}
+
+
+
+@media only screen and (min-width: 480px) {
+	.Header__button-nav {
+		margin-top: 1px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.Header__button-nav {
+		display: none;
+	}
+
+	.Moto__widget {
+		flex-direction: row;
+	}
+
+	.Moto__button {
+		margin-bottom: 0;
+	}
+
+	.Moto__button:first-child {
+		margin-right: 30px;
+		margin-left: 3px;
+	}
+}
+
+@media only screen and (min-width: 1040px) {
+	.Moto__link {
+		padding: 20px 57px;
+		font-size: 20px;
+	}
+
+	.Contact__submit {
+		min-width: 246px;
+	}
+
+	.Contact__submit-link {
+		padding: 25px;
+		font-size: 24px;
+	}
+
+	.Services__submit-link {
+		padding: 25px;
+		font-size: 24px;
+	}
+}
+

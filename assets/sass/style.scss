@@ -1,0 +1,15 @@
+@import 'modules/variables';
+@import 'modules/header';
+@import 'modules/buttons';
+@import 'modules/logo';
+@import 'modules/main';
+@import 'modules/icons';
+
+body {
+	font-family: PT Sans,Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #434f53;
+	background: #fff;
+}
+
