@@ -46,7 +46,7 @@
 
 .Welcome {
 	padding-bottom: 10px;
-	border-bottom: 8px solid $primary-color;
+	border-bottom: 8px solid var(--clr-primary);
 }
 
 .Welcome__container {
@@ -145,7 +145,7 @@
 	line-height: 1.3;
 	letter-spacing: 0;
 	text-align: left;
-	background: $primary-color;
+	background: var(--clr-primary);
 	color: #fff;
 	z-index: 2;
 	transition: 0.3s all;
@@ -157,7 +157,7 @@
 
 .Offers {
 	padding: 20px 0 60px;
-	border-bottom: 8px solid $primary-color;
+	border-bottom: 8px solid var(--clr-primary);
 }
 
 .Offers__container {
@@ -201,8 +201,8 @@
 	line-height: 1.2;
 	letter-spacing: 0;
 	font-weight: 100;
-	color: $primary-color;
-	border: 1px solid $primary-color;
+	color: var(--clr-primary);
+	border: 1px solid var(--clr-primary);
 	border-radius: 50px;
 }
 
@@ -214,13 +214,13 @@
 }
 
 .Offers__headline-link {
-	color: $primary-color;
+	color: var(--clr-primary);
 	text-decoration: none;
 	font-weight: 300;
 	transition: 0.3s all;
 
 	&:hover {
-		color: $secondary-color;
+		color:  var(--clr-secondary);
 	}
 }
 
@@ -231,7 +231,7 @@
 	font-weight: 300;
 	line-height: 1.4;
 	letter-spacing: 0px;
-	color: $secondary-color;
+	color:  var(--clr-secondary);
 }
 
 .Contact {
@@ -339,11 +339,11 @@
 
 .Services__heading-link {
 	text-decoration : none;
-	color: $primary-color;
+	color: var(--clr-primary);
 	transition: 0.3s all;
 
 	&:hover {
-		color:$secondary-color;
+		color: var(--clr-secondary);
 	}
 }
 
@@ -390,12 +390,12 @@ footer {
 }
 
 .footer__social-link {
-	color: $primary-color;
+	color: var(--clr-primary);
 	transition: 0.3s all;
 	font-size: 16px;
 
 	&:hover {
-		color: $secondary-color;
+		color:  var(--clr-secondary);
 	}
 }
 
@@ -414,11 +414,11 @@ footer {
 
 .footer__number-link {
 	text-decoration: none;
-	color: $secondary-color;
+	color:  var(--clr-secondary);
 	transition: 0.3s all;
 
 	&:hover {
-		color: $primary-color;
+		color: var(--clr-primary);
 	}
 }
 
@@ -432,10 +432,10 @@ footer {
 .footer__copyright-link {
 	text-decoration: none;
 	transition: 0.3s all;
-	color: $secondary-color;
+	color:  var(--clr-secondary);
 
 	&:hover {
-		color: $primary-color;
+		color: var(--clr-primary);
 	}
 }
 
@@ -494,7 +494,7 @@ footer {
 
 	.Offers {
 		padding: 20px 0 60px;
-		border-bottom: 8px solid $primary-color;
+		border-bottom: 8px solid var(--clr-primary);
 	}
 
 	.Offers__container {

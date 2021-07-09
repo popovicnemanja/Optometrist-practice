@@ -64,7 +64,7 @@
 	border: none;
 	border-radius: 30px;
 	outline: none;
-	background: $primary-color;
+	background: var(--clr-primary);
 	transition: 0.3s all;
 
 	&:hover {
@@ -85,7 +85,7 @@
 	transition: 0.3s all;
 
 	&:hover {
-		color: $secondary-color;
+		color: var(--clr-secondary);
 	}
 }
 
@@ -94,11 +94,11 @@
 	background: white;
 
 	&:hover {
-		background: $secondary-color;
+		background: var(--clr-secondary);
 	}
 	
 	& a {
-		color: $secondary-color;
+		color: var(--clr-secondary);
 
 		&:hover {
 			color: white;
@@ -139,10 +139,10 @@
 	color: white;
 	border-radius: 30px;
 	transition: 0.3s all;
-	background: $primary-color;
+	background: var(--clr-primary);
 
 	&:hover {
-		background: $secondary-color;
+		background: var(--clr-secondary);
 	}
 }
 
@@ -163,13 +163,13 @@
 	text-transform: capitalize; 
 	text-decoration: none;
 	line-height: 1;
-	background: $primary-color;
+	background: var(--clr-primary);
 	color: white;
 	border-radius: 30px;
 	transition: 0.3s all;
 
 	&:hover {
-		background: $secondary-color;
+		background: var(--clr-secondary);
 	}
 }
 
@@ -190,12 +190,12 @@
 	text-transform: capitalize;
 	text-decoration: none;
 	line-height: 1;
-	background: $primary-color;
+	background: var(--clr-primary);
 	color: white;
 	transition: 0.3s all;
 
 	&:hover {
-		background: $secondary-color;
+		background: var(--clr-secondary);
 	}
 }
 

@@ -1,12 +1,13 @@
-@import 'modules/variables';
-@import 'modules/header';
-@import 'modules/buttons';
-@import 'modules/logo';
-@import 'modules/main';
-@import 'modules/icons';
+@use './modules';
+
+:root {
+	--clr-primary: #39c4f1;
+	--clr-secondary: #303334;
+}
 
 body {
-	font-family: PT Sans,Helvetica,Arial,sans-serif;
+	margin: 0;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #434f53;

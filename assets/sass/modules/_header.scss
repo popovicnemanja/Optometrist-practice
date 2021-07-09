@@ -1,6 +1,6 @@
 .Header {
 	padding-top: 10px;
-	border-bottom: 8px solid $primary-color;
+	border-bottom: 8px solid var(--clr-primary);
 }
 
 .Header__container {
@@ -27,7 +27,7 @@
 }
 
 .Nav__list {
-	background: $primary-color;
+	background: var(--clr-primary);
 	border: 2px solid #fff;
 	margin: 0;
 	list-style-type: none;
@@ -113,15 +113,15 @@
 		padding: 21px 14px;
 		font-size: 16px;
 		line-height: 30px;
-		color: $secondary-color;
+		color: var(--clr-secondary);
 	}
 
 	.Nav__link:hover {
-		color: $primary-color;
+		color: var(--clr-primary);
 	}
 
 	.Nav__link--active {
-		color: $primary-color;
+		color: var(--clr-primary);
 	}
 }
 

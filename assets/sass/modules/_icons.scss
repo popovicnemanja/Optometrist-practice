@@ -2,8 +2,8 @@
 .fas {
 	padding: 0 33px 10px 33px;
 	font-size: 35px;
-	color: $primary-color;
-	border-bottom: 1px solid $primary-color;
+	color: var(--clr-primary);
+	border-bottom: 1px solid var(--clr-primary);
 }
 
 .fa-coffee {

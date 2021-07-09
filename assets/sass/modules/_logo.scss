@@ -7,12 +7,12 @@
 
 .Header__logo-link {
 	text-decoration: none;
-	color: $secondary-color;
+	color: var(--clr-secondary);
 	line-height: 1.7;
 }
 
 .Header__logo-letter {
-	color: $primary-color;
+	color: var(--clr-primary);
 }
 
 @media only screen and (min-width: 480px) {
