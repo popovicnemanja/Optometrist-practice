@@ -1,11 +1,11 @@
 .Header {
-	padding-top: 10px;
+	padding-top: 1rem;
 	border-bottom: 8px solid var(--clr-primary);
 }
 
 .Header__container {
-	max-width: 1200px;
-	padding: 0 15px 5px;
+	max-width: 120rem;
+	padding: 0 1.5rem 5px;
 	margin: 0 auto;
 	position: relative;
 	text-align: center;
@@ -14,15 +14,15 @@
 .Nav {
 	width: 100%;
 	position: absolute;
-	top: -500px;
+	top: -50rem;
 	left: 0;
-	padding: 0 15px;
+	padding: 0 1.5rem;
 	box-sizing: border-box;
 	transition: 0.3s all;
 }
 
 .Nav.is-collapsed {
-	top: 116px;
+	top: 11.6rem;
 	z-index: 999;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .Nav__link {
-	padding: 10px 50px 10px 20px;
+	padding: 1rem 5rem 1rem 2rem;
 	display: block;
 	color: #fff;
 	text-decoration: none;
@@ -60,19 +60,19 @@
 
 .Nav__link--active {
 	color: #303334;
-	font-size: 15px;
+	font-size: 1.5rem;
 }
 
 @media only screen and (min-width: 480px) {
 	.Nav.is-collapsed {
-		top: 112px;
+		top: 11.2rem;
 	}
 }
 
 @media only screen and (min-width: 768px) {
 	.Header {
 		width: 100%;
-		padding: 10px 0 11px 0;
+		padding: 1rem 0 1.1rem 0;
 		position: fixed;
 		background: white;
 		z-index: 1;	
@@ -110,9 +110,9 @@
 	}
 
 	.Nav__link {
-		padding: 21px 14px;
-		font-size: 16px;
-		line-height: 30px;
+		padding: 2.1rem 1.4rem;
+		font-size: 1.6rem;
+		line-height: 3rem;
 		color: var(--clr-secondary);
 	}
 
@@ -127,12 +127,12 @@
 
 @media only screen and (min-width: 1040px) {
 	.Header {
-		padding: 25px 0;
+		padding: 2.5rem 0;
 	}
 
 	.Nav__link { 
-		font-size: 18px;
-		padding: 2px 16px;
+		font-size: 1.8rem;
+		padding: 2px 1.6rem;
 	}
 
 	.Nav__list {

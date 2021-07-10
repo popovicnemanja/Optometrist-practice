@@ -2,11 +2,11 @@
 	background-image: url('../img/home-slide.jpg');
 	background-position: center;
 	background-size: cover;
-	height: 296px;
+	height: 29.6rem;
 }
 
 .Moto__container {
-	padding: 50px 0 50px 0;
+	padding: 5rem 0 5rem 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -15,10 +15,10 @@
 
 .Moto__text {
 	margin: 0;
-	margin-bottom: 20px;
+	margin-bottom: 2rem;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	font-size: 35px;
+	font-size: 3.5rem;
 	font-weight: 400;
 	line-height: 1;
 	color: white;
@@ -30,11 +30,11 @@
 	
 	0% {
 		opacity: 0;
-		transform: translateX(-500px);
+		transform: translateX(-50rem);
 	}
 
 	80% {
-		transform: translateX(15px);
+		transform: translateX(1.5rem);
 	}
 
 	100% {
@@ -45,31 +45,31 @@
 }
 
 .Welcome {
-	padding-bottom: 10px;
+	padding-bottom: 1rem;
 	border-bottom: 8px solid var(--clr-primary);
 }
 
 .Welcome__container {
-	max-width: 1200px;
+	max-width: 120rem;
 	margin: 0 auto;
-	padding: 50px 15px;
+	padding: 5rem 1.5rem;
 	box-sizing: border-box;
 	text-align: center;
 }
 
 .Welcome__headline {
 	margin: 0 auto;
-	font: 32px Roboto, sans-serif;
+	font: 3.2rem Roboto, sans-serif;
 	font-weight: 100;
 	line-height: 1;
 	text-transform: uppercase;
 }
 
 .Welcome__text {
-	margin: 10px 0 0;
+	margin: 1rem 0 0;
 	padding: 0 1px;
 	text-align: center;
-	font: 18px Roboto, sans-serif;
+	font: 1.8rem Roboto, sans-serif;
 	font-weight: 300;
 	line-height: 1.2;
 	letter-spacing: 0;
@@ -80,14 +80,14 @@
 }
 
 .Gallery__wrapper {
-	padding: 50px 0;
+	padding: 5rem 0;
 	text-align: center;
 }
 
 
 .Gallery__headline {
-	margin: 0 auto 20px auto;
-	font: 32px Roboto, sans-serif;
+	margin: 0 auto 2rem auto;
+	font: 3.2rem Roboto, sans-serif;
 	font-weight: 100;
 	line-height: 1;
 	text-transform: uppercase;
@@ -136,11 +136,11 @@
 .Gallery__caption {
 	width: 100%;
 	margin: 0;
-	padding: 15px;
+	padding: 1.5rem;
 	position: absolute;
-	bottom: -99px;
+	bottom: -9.9rem;
 	box-sizing: border-box;
-	font: 18px Roboto, sans-serif;
+	font: 1.8rem Roboto, sans-serif;
 	font-weight: 300;
 	line-height: 1.3;
 	letter-spacing: 0;
@@ -152,16 +152,16 @@
 }
 
 .Gallery__item-link:hover> .Gallery__caption {
-	transform: translateY(-99px);
+	transform: translateY(-9.9rem);
 }
 
 .Offers {
-	padding: 20px 0 60px;
+	padding: 2rem 0 6rem;
 	border-bottom: 8px solid var(--clr-primary);
 }
 
 .Offers__container {
-	padding: 0 15px;
+	padding: 0 1.5rem;
 }
 
 .Offers__list {
@@ -173,7 +173,7 @@
 }
 
 .Offers__item {
-	margin-bottom: 20px;
+	margin-bottom: 2rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -184,8 +184,8 @@
 }
 
 .Offers__headline {
-	margin: 0 0 10px;
-	font: 32px Roboto, sans-serif;
+	margin: 0 0 2rem;
+	font: 3.2rem Roboto, sans-serif;
 	font-weight: 100;
 	font-style: normal;
 	text-transform: uppercase;
@@ -195,21 +195,21 @@
 }
 
 .Offers__num {
-	margin-bottom: 10px;
-	padding: 19px 21px; 
-	font: 48px Roboto, sans-serif;
+	margin-bottom: 1rem;
+	padding: 1.9rem 2.1rem; 
+	font: 4.8rem Roboto, sans-serif;
 	line-height: 1.2;
 	letter-spacing: 0;
 	font-weight: 100;
 	color: var(--clr-primary);
 	border: 1px solid var(--clr-primary);
-	border-radius: 50px;
+	border-radius: 5rem;
 }
 
 .Offers__headline-offer {
 	margin: 0;
 	text-transform: capitalize;
-	font: 18px Roboto, sans-serif;
+	font: 1.8rem Roboto, sans-serif;
 	line-height: 1.3;
 }
 
@@ -225,9 +225,9 @@
 }
 
 .Offers__text {
-	margin: 19px 0 0;
+	margin: 1.9rem 0 0;
 	text-align: center;
-	font: 14px Roboto, sans-serif;
+	font: 1.4rem Roboto, sans-serif;
 	font-weight: 300;
 	line-height: 1.4;
 	letter-spacing: 0px;
@@ -235,7 +235,7 @@
 }
 
 .Contact {
-	padding: 50px 0;
+	padding: 5rem 0;
 	background: #fafafa;
 }
 
@@ -244,15 +244,15 @@
 }
 
 .Contact__headline {
-	margin: 0 0 20px;
-	font: 32px Roboto, sans-serif;
+	margin: 0 0 2rem;
+	font: 3.2rem Roboto, sans-serif;
 	font-weight: 100;
 	line-height: 1;
 	text-transform: uppercase;
 }
 
 .Contact__form {
-	margin-bottom: 50px;
+	margin-bottom: 5rem;
 	display: flex;
 	flex-direction: column;
 	background: #fafafa;
@@ -262,14 +262,14 @@
 .Contact__input,
 .Contact__textarea {
 	margin-bottom: 7px;
-	padding: 20px 36px;
+	padding: 2rem 36px;
 	font: 16px Roboto, sans-serif;
 	font-weight: 300;
 	line-height: 1.2;
 	transition: 0.3s all;
 	background: #fff;
 	border: 1px solid #e7e7e7;
-	border-radius: 30px;
+	border-radius: 3rem;
 
 	&:focus {
 		outline: none;
@@ -277,12 +277,12 @@
 }
 
 .Contact__input:nth-child(-n+3) {
-	padding-left: 40px;
+	padding-left: 4rem;
 }
 
 .Contact__textarea {
 	margin-bottom: 0;
-	padding: 20px 36px;
+	padding: 2rem 36px;
 	resize: none;
 }
 
@@ -292,24 +292,24 @@
 }
 
 .Services {
-	padding: 50px 0;
+	padding: 5rem 0;
 }
 
 .Services__container {
-	padding: 0 15px;
+	padding: 0 1.5rem;
 	text-align: center;
 }
 
 .Services__headline {
-	margin: 0 0 20px;
+	margin: 0 0 2rem;
 	text-transform: uppercase;
-	font: 32px Roboto, sans-serif;
+	font: 3.2rem Roboto, sans-serif;
 	font-weight: 100;
 	line-height: 1;
 }
 
 .Services__lists {
-	margin-bottom: 30px;
+	margin-bottom: 3rem;
 }
 
 .Services__menu {
@@ -319,11 +319,11 @@
 }
 
 .Services__menu--bottom {
-	margin-top: 20px;
+	margin-top: 2rem;
 }
 
 .Services__item {
-	margin-bottom: 20px;
+	margin-bottom: 2rem;
 }
 
 .Services__item:last-child {
@@ -331,9 +331,9 @@
 }
 
 .Services__heading-line {
-	margin: 10px 0 0;
+	margin: 1rem 0 0;
 	text-align: left;
-	font: 18px Roboto, sans-serif;
+	font: 1.8rem Roboto, sans-serif;
 	font-weight: 300;
 }
 
@@ -348,28 +348,23 @@
 }
 
 .Services__text {
-	margin: 20px 0 0;
+	margin: 2rem 0 0;
 	padding: 0 5px;
-	font: 14px/1.4 Roboto, sans-serif;
+	font: 1.4rem/1.4 Roboto, sans-serif;
 	font-weight: 300;
 	text-align: left;
 }
 
 .Services__item:last-child .Services__text {
-	margin: 20px 0 0;
-}
-
-#map-canvas {
-	width: 100%;
-	height: 300px;
+	margin: 2rem 0 0;
 }
 
 footer {
-	padding: 40px 0 20px;
+	padding: 4rem 0 2rem;
 }
 
 .footer__container {
-	padding: 0 15px;
+	padding: 0 1.5rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -377,7 +372,7 @@ footer {
 
 .footer__social-networks {
 	list-style-type: none;
-	margin: 0 0 20px;
+	margin: 0 0 2rem;
 	padding: 0;
 	display: flex;
 	flex-direction: row;
@@ -392,7 +387,7 @@ footer {
 .footer__social-link {
 	color: var(--clr-primary);
 	transition: 0.3s all;
-	font-size: 16px;
+	font-size: 1.6rem;
 
 	&:hover {
 		color:  var(--clr-secondary);
@@ -406,8 +401,8 @@ footer {
 }
 
 .footer__number {
-	margin: 0 0 20px;
-	font: 26px/1 Roboto, sans-serif;
+	margin: 0 0 2rem;
+	font: 2.6rem/1 Roboto, sans-serif;
 	font-weight: 100;
 	letter-spacing: 0;
 }
@@ -425,7 +420,7 @@ footer {
 
 .footer__copyright-text {
 	margin: 0;
-	font: 15px/1.4 Roboto, sans-serif;
+	font: 1.5rem/1.4 Roboto, sans-serif;
 	font-weight: 300;
 }
 
@@ -441,59 +436,59 @@ footer {
 
 @media only screen and (min-width: 480px) {
 	.Moto {
-		height: 326px;
+		height: 32.6rem;
 	}
 
 	.Moto__text {
-		font-size: 50px;
+		font-size: 5rem;
 	}
 
 	.footer__number {
-		font-size: 30px;
+		font-size: 3rem;
 	}
 }
 
 
 @media only screen and (min-width: 768px) {
 	main {
-		padding-top: 101px;
+		padding-top: 1.01rem;
 	}
 
 	.Moto {
-		height: 328px;
+		height: 32.8rem;
 	}
 
 	.Moto__container {
-		padding: 70px 0;
+		padding: 7rem 0;
 	}
 
 	.Moto__text {
-		font-size: 60px;
+		font-size: 6rem;
 	}
 
 	.Welcome__container {
-		padding: 70px 15px;
+		padding: 7rem 1.5rem;
 	}
 
 	.Welcome__headline {
-		font-size: 40px;
+		font-size: 4rem;
 	}
 
 	.Gallery__wrapper {
-		padding: 70px 0;
+		padding: 7rem 0;
 	}
 
 	.Gallery__headline {
-		font-size: 40px;
+		font-size: 4rem;
 	}
 
 	.Gallery__caption {
-		font-size: 15px;
+		font-size: 1.5rem;
 		line-height: 1.3;
 	}
 
 	.Offers {
-		padding: 20px 0 60px;
+		padding: 2rem 0 6rem;
 		border-bottom: 8px solid var(--clr-primary);
 	}
 
@@ -508,34 +503,34 @@ footer {
 
 	.Offers__item {
 		margin: 0;
-		padding: 0 15px;
+		padding: 0 1.5rem;
 		flex: 0 0 33.333%;
 		box-sizing: border-box;
 	}
 
 	.Offers__headline {
-		font-size: 40px;
+		font-size: 4rem;
 	}
 
 	.Offers__headline-link {
-		font-size: 20px;
+		font-size: 2rem;
 	}
 
 	.Contact {
-		padding: 70px 0;
+		padding: 7rem 0;
 	}
 
 	.Contact__container {
-		max-width: 1200px;
+		max-width: 120rem;
 		margin: 0 auto;
 	}
 
 	.Contact__headline {
-		font-size: 40px;
+		font-size: 4rem;
 	}
 
 	.Services {
-		padding: 70px 0;
+		padding: 7rem 0;
 	}
 
 	.Services__container {
@@ -543,7 +538,7 @@ footer {
 	}
 
 	.Services__headline {
-		font-size: 40px;
+		font-size: 4rem;
 	}
 
 
@@ -561,7 +556,7 @@ footer {
 	.Services__item {
 		max-width: 33.33333333%;
 		margin-bottom: 0;
-		padding-right: 15px;
+		padding-right: 1.5rem;
 		display: flex;
 		align-items: flex-start;
 		flex: 0 0 33.33333333%;
@@ -575,26 +570,26 @@ footer {
 	.Services__icon {
 		max-width: 33.333333%;
 		flex: 0 0 33.333333%;
-		padding: 0 15px;
+		padding: 0 1.5rem;
 		box-sizing: inherit;
 	}
 
 	.Services__description {
 		max-width: 66.666666%;
 		flex: 0 0 66.666666%;
-		padding-left: 15px;
+		padding-left: 1.5rem;
 		box-sizing: inherit;	
 	}
 
 	.Services__heading-line {
 		margin: 0;
-		font-size: 20px;
+		font-size: 2rem;
 		line-height: 1.3;
 		letter-spacing: 0px;
 	}
 
 	.footer__number {
-		font-size: 41px;
+		font-size: 4.1rem;
 	}
 }
 
@@ -611,108 +606,108 @@ footer {
 
 @media only screen and (min-width: 1040px) {
 	main {
-		padding-top: 120px;
+		padding-top: 12rem;
 	}
 
 	.Moto {
-		height: 660px;
+		height: 66rem;
 	}
 
 	.Moto__container {
-		padding: 155px 0 0;
+		padding: 15.5rem 0 0;
 	}
 
 	.Moto__text {
-		margin-bottom: 50px;
-		font-size: 100px;
+		margin-bottom: 5rem;
+		font-size: 10rem;
 		line-height: 1.2;
 	}
 
 	.Welcome {
-		padding-bottom: 25px;
+		padding-bottom: 2.5rem;
 	}
 
 	.Welcome__container {
-		padding: 155px 15px;
+		padding: 15.5rem 1.5rem;
 	}
 
 	.Welcome__headline {
-		font-size: 58px;
+		font-size: 5.8rem;
 		letter-spacing: -1px;
 	}
 
 	.Welcome__text {
-		margin: 25px 0 0;
-		font-size: 22px;
+		margin: 2.5rem 0 0;
+		font-size: 2.2rem;
 		line-height: 1.4;
 	}
 
 	.Gallery__headline {
 		margin: 0;
-		padding: 85px 0 55px;
-		font-size: 58px;
+		padding: 8.5rem 0 5.5rem;
+		font-size: 5.8rem;
 		letter-spacing: -1px;
 	}
 
 	.Gallery__caption {
-		padding: 70px 60px 50px;
-		bottom: -198px;
-		font-size: 20px;
+		padding: 7rem 6rem 5rem;
+		bottom: -19.8rem;
+		font-size: 2rem;
 	}
 
 	.Gallery__item-link:hover > .Gallery__caption {
-		transform: translateY(-198px);
+		transform: translateY(-19.8rem);
 	}
 
 	.Gallery__link {
-		padding: 25px 66.5px;
-		font-size: 24px;
+		padding: 2.5rem 6.65rem;
+		font-size: 2.4rem;
 	}
 
 	.Gallery__widget {
-		padding: 55px 0 85px;
+		padding: 5.5rem 0 8.5rem;
 	}
 
 	.Offers {
-		padding: 55px 0 165px;
+		padding: 5.5rem 0 16.5rem;
 	}
 
 	.Offers__container {
-		max-width: 1200px;
+		max-width: 120rem;
 		margin: 0 auto;
 	}
 
 	.Offers__headline {
-		margin-bottom: 25px;
-		font-size: 58px;
+		margin-bottom: 2.5rem;
+		font-size: 5.8rem;
 		letter-spacing: -1px;
 	}
 
 	.Offers__num {
-		margin-bottom: 25px;
-		padding: 48px 51px;
-		font-size: 88px;
+		margin-bottom: 2.5rem;
+		padding: 4.8rem 5.1rem;
+		font-size: 8.8rem;
 		border: 2px solid;	
-		border-radius: 102px;
+		border-radius: 10.2rem;
 	}
 
 	.Offers__headline-link {
-		font-size: 24px;
+		font-size: 2.4rem;
 	}
 
 	.Offers__text {
-		margin-top: 21px;
-		font-size: 15px;
+		margin-top:5.5rem 8.5rem;
+		font-size: 1.5rem;
 	}
 
 
 	.Contact {
-		padding: 155px 0;
-	}
+		padding: 5.5rem 0;
+}
 
 	.Contact__headline {
 		margin-bottom: 55px;
-		font-size: 58px;
+		font-size: 5.8rem;
 		letter-spacing: -1px;
 	}
 
@@ -731,26 +726,26 @@ footer {
 
 	.Services__headline {
 		margin-bottom: 55px;
-		font-size: 58px;
+		font-size: 5.8rem;
 		letter-spacing: -1px;
 		line-height: 1;
 	}
 
 	.Lists {
-		margin-bottom: 30px;
+		margin-bottom: 3rem;
 	}
 
 	.Services__heading-line {
-		font-size: 24px;
+		font-size: 2.4rem;
 	}
 
 	.Services__text {
-		font-size: 15px;
+		font-size: 5.5rem.8.5rem;
 		line-height: 1.4;
 	}
 
 	.Services__submit {
-		min-width: 246px;
+		min-width: 5.5rem;
 	}
 
 	footer {
@@ -766,12 +761,8 @@ footer {
 		margin: 0 16px;
 	}
 
-	.footer__social-link {
-		font-size: 18px;
-	}
-
 	.footer__number {
-		font-size: 58px;
+		font-size: 5.8rem;
 		margin-bottom: 55px;
 	}
 }

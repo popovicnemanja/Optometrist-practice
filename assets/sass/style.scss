@@ -3,14 +3,16 @@
 :root {
 	--clr-primary: #39c4f1;
 	--clr-secondary: #303334;
+	--clr-text: #434f53;
+
+	font-size: 62.5%;
 }
 
 body {
 	margin: 0;
 	font-family: 'PT Sans', sans-serif;
-	font-size: 14px;
+	font-size: 1.4rem;
 	line-height: 1.42857143;
-	color: #434f53;
 	background: #fff;
 }
 
